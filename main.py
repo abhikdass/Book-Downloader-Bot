@@ -17,11 +17,11 @@ from telegram.utils.helpers import mention_html
 
 load_dotenv()
 
-TOKEN = os.getenv('TOKEN', '1789117801:AAE7kPyd23Xbq3kPSvFH5OHMzAkHY96xJsc') # please use your own token this is already resoked
+TOKEN = os.getenv('TOKEN', '6766745833:AAHyRRdvB3f8_EIs2ntkVwXIPT0IIStWOWo') # please use your own token this is already resoked
 DETA_KEY = os.getenv(
-    'DETA_KEY', 'd0fx3kttcjd_7CrquXya2gHRf448TjjnU1BcAQxnJs83') # please use your own https://deta.space/collections. this is already revoked
+    'DETA_KEY', 'DSi8TjVW_44PthTmjCnu5FUZ47LHBnsm6NoweNsCD') # please use your own https://deta.space/collections. this is already revoked
 
-ADMIN_ID = [1697562512] # please replace this by your own id
+ADMIN_ID = [907823528] # please replace this by your own id
 
 deta = Deta(DETA_KEY)
 db = deta.Base('amazingbookdownloaderbot')
